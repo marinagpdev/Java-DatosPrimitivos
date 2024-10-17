@@ -1,5 +1,8 @@
 public class DatosPrimitivos  {
 
+    /**
+     * Muestra una definición general sobre los tipos de datos primitivos en Java.
+     */
     public static void getDefinicion() {
 
         System.out.println("**************** DEFINICION *************************");
@@ -15,6 +18,11 @@ public class DatosPrimitivos  {
 
     }
 
+    /**
+     * Proporciona información detallada sobre los tipos de datos enteros en Java,
+     * sus rangos, clases envolventes (Wrapper),
+     * ejemplos de valores y métodos útiles para la conversión de enteros a otras bases numéricas.
+     */
     public static void getEnterosInfo() {
         System.out.println("**************** Tipo: enteros ***********************");
         System.out.println("Son 4 tipos: byte (8 bits), short (16 bits), int (32 bits), long (64 bits)");
@@ -73,6 +81,10 @@ public class DatosPrimitivos  {
         System.out.println("*************************************************");
     }
 
+    /**
+     * Proporciona información detallada sobre los tipos de datos flotantes en Java,
+     * su precisión, clases envolventes (Wrapper), ejemplos de valores, y cómo manejar notaciones científicas.
+     */
     public static void getFlotantesInfo() {
 
         System.out.println("**************** Tipo: flotantes ***********************");
@@ -106,6 +118,10 @@ public class DatosPrimitivos  {
 
     }
 
+    /**
+     * Proporciona información sobre el tipo de dato `char` en Java, cómo se manejan caracteres con código Unicode,
+     * y ejemplos de conversión entre diferentes representaciones de caracteres.
+     */
     public static void getCaracterInfo() {
 
         System.out.println("**************** Tipo: char ***********************");
@@ -121,7 +137,7 @@ public class DatosPrimitivos  {
 
         char caracter = '@';
         char decimal = 64;
-        char unicode = '\u0040'; // Corresponde al carácter '!'
+        char unicode = '\u0040'; // Corresponde al carácter '@'
 
         System.out.println("El valor de caracter es: " + caracter);
         System.out.println("El valor de decimal es: " + decimal);
@@ -142,6 +158,10 @@ public class DatosPrimitivos  {
 
     }
 
+    /**
+     * Proporciona información sobre el tipo de dato `boolean` en Java, cómo se representa un valor booleano,
+     * su relación con la clase Wrapper `Boolean` y ejemplos de uso.
+     */
     public static void getBooleanInfo() {
 
         System.out.println("**************** Tipo: boolean ***********************");
@@ -159,7 +179,6 @@ public class DatosPrimitivos  {
         System.out.println("El valor de b1 es " + b1);
         System.out.println("El valor de b2 es " + b2);
         System.out.println("******************************************************");
-
 
     }
 
