@@ -120,6 +120,6 @@ Si el usuario ingresa un valor incorrecto en el menú, se atrapa  `InputMismatch
 
 Clona el repositorio o descarga el código fuente.
    ```bash
-   git clone https://github.com/usuario/tipos-datos-primitivos-java.git
+   git@github.com:marinagpdev/Java-DatosPrimitivos.git
 ```
 Si deseas contribuir, por favor abre un issue o envía un pull request en el repositorio.
